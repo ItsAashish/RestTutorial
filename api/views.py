@@ -25,7 +25,7 @@ class hello_api(APIView):
             'This is a list created waiting for FCB vs Valadollid Game'
         ]
         return Response({
-            'message' : ' Hello to the first program!',
+            'message' : ' Hello to the first program and testing the git is fun!',
             'an_apiview' : an_apiview
         })
 
